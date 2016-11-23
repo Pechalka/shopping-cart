@@ -1,0 +1,37 @@
+
+.nav {
+  display: flex;
+}
+
+.link {
+  position: relative;
+  margin: 0 20px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.link:hover,
+.link:visited {
+  color: #fff;
+}
+
+
+.link[disabled] {
+  color: #ccc;
+  text-decoration: none;
+
+  .count {
+    color: #ccc;
+  }
+}
+
+
+.count {
+  color: #000;
+  font-size: 15px;
+  position: absolute;
+  top: 0;
+  text-decoration: none;
+}
+

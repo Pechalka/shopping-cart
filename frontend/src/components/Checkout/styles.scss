@@ -1,0 +1,104 @@
+
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.row {
+  width: 30%;
+  border-top: 1px solid #ccc;
+}
+
+.title {
+
+}
+
+
+.radionGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+input[type=radio].radio {
+  margin-right: 10px;
+}
+
+
+.payButtonContainer {
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+
+.payment {
+  margin-bottom: 20px;
+}
+
+.paymentRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paymentRowLabel {
+  font-weight: bold;
+}
+
+.paymentRowPrice {
+  color: red;
+}
+
+.itemsButtons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.itemsList {
+  border: 1px solid #ccc;
+}
+
+.itemsListItem {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.itemsListItem:last-child {
+  border-bottom: none;
+}
+
+.productItem {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.productItemImg {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ccc;
+  min-width: 60px;
+  margin: 10px;
+  margin-top: 0;
+}
+
+.productTitle {
+  margin: 0;
+  font-size: 16px;
+}
+
+.productInput {
+  width: 20px;
+}
+
+.actionContainer {
+  margin: 10px;
+  margin-top: 0;
+  min-width: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

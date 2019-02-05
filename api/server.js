@@ -11,6 +11,8 @@ app.use(express.static('../frontend/dist'));
 var fallback = require('express-history-api-fallback');
 var root = __dirname + '/../frontend/dist'
 
+
+
 app.use(require('cookie-parser')());
 app.use(require('cookie-session')({
     secret: config.secret
